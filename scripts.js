@@ -1,5 +1,9 @@
 function getPhoneNumber() {
     let phone = document.getElementById("WAphoneNumber").value;
+    let code = document.getElementById("WAphoneCountryCode").value;
+    if (!!code) {
+        phone = code + phone;
+    }
     //remove unsupported by WA API characters from phone number
     phone = phone.replace(/[ \-\+()]/g, "");
     return phone;

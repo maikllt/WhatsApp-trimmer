@@ -99,7 +99,7 @@ form {
 }
 
 .form-inner {
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
 }
 
 .form-inner input,
@@ -154,4 +154,17 @@ button:hover {
     form {
         width: 60%;
     }
+}
+
+#WAphoneCountryCode {
+    width: 15%;
+    float: left;
+}
+#WAphoneNumber {
+    width:50%;
+}
+
+.gitHubLink{
+    float:right;
+    margin: 0px 15px 5px;
 }
